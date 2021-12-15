@@ -13,7 +13,7 @@ public class Hooks  extends Utility {
     @Before // take cucumber api @Before
     public void setUP(){
         selectBrowser(PropertyReader.getInstance().getProperty("browser"));
-        Reporter.assignAuthor("Jimil");
+        Reporter.assignAuthor("Kinjal");
     }
 
     @After
